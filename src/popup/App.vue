@@ -1,5 +1,5 @@
 <template>
-  <card-counter time="This is Time" />
+  <card-counter v-bind:time="waktu" />
 </template>
 
 <script>
@@ -7,7 +7,10 @@ import CardCounter from '@/components/CardCounter.vue'
 
 export default {
   name: 'App',
-  components: { CardCounter }
+  components: { CardCounter },
+  data: {
+    waktu: "Ini adalah waktu"
+  }
 }
 </script>
 
