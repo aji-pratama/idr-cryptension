@@ -1,16 +1,13 @@
 <template>
-  <card-counter v-bind:time="waktu" />
+  <list-market />
 </template>
 
 <script>
-import CardCounter from '@/components/CardCounter.vue'
+import ListMarket from '../components/ListMarket.vue'
 
 export default {
   name: 'App',
-  components: { CardCounter },
-  data: {
-    waktu: "Ini adalah waktu"
-  }
+  components: { ListMarket }
 }
 </script>
 
