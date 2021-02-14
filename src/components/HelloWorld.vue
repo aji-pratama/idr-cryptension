@@ -1,6 +1,7 @@
 <template>
   <div>
     <p>{{ defaultText }}</p>
+    <div class="alert alert-success">This is a sweet success message</div>
   </div>
 </template>
 
