@@ -1,13 +1,13 @@
 <template>
-  <hello-world />
+  <card-counter time="This is Time" />
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import CardCounter from '@/components/CardCounter.vue'
 
 export default {
   name: 'App',
-  components: { HelloWorld }
+  components: { CardCounter }
 }
 </script>
 
