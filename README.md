@@ -1,4 +1,6 @@
-# timoo
+# IDR Cryptension
+Chrome extension Cryptocurrency price in Indonesian Rupiah (IDR)
+
 
 ## Project setup
 ```

@@ -1,6 +1,6 @@
 <template>
   <div class="table-responsive">
-    <table class="table table-sm table-dark align-items-center">
+    <table class="table table-sm table-dark align-items-center mb-0">
         <thead>
             <tr>
                 <th scope="col" class="sort" data-sort="name">Currency</th>
