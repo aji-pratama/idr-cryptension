@@ -2,8 +2,8 @@
   <div class="">
       <div class="table-responsive">
         <div>
-            <table class="table align-items-center">
-                <thead class="thead-light">
+            <table class="table table-sm table-striped table-dark align-items-center">
+                <thead>
                     <tr>
                         <th scope="col" class="sort" data-sort="name">Currency</th>
                         <th scope="col" class="sort" data-sort="budget">Last Price (IDR)</th>
