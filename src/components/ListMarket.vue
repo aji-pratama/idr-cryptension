@@ -10,7 +10,7 @@
         </thead>
         <tbody class="list">
           <tr v-for="item in markets" :key="item.id">
-              <th scope="row">{{ item.cd }}</th>
+              <th scope="row"><a :href="'https://www.rekeningku.com/trade/'+ item.cd +'-IDR'" target="_blank" class="text-white">{{ item.cd }}</a></th>
               <td class="budget">{{ processCurrency(item.c) }}</td>
               <td :class="item.cp > 0 ? 'text-success' : 'text-danger'">{{ item.cp }}%</td>
           </tr>
